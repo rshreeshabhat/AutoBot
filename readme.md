@@ -37,8 +37,13 @@ AutoBot is a Discord bot built using Python and the `discord.py` library. It off
     ```sh
     ollama pull tinyllama
     ```
-    
+
     You can use any Ollama model, just make adjustments in the code to reflect the new model. Here I am using tinyllama as it is a very lightweight and CPU-friendly model.
+
+    If you have a high performance PC with a good GPU you can also use Deepseek-R1:
+    ```sh
+    ollama pull deepseek-r1:8b
+    ```
 
 
 
