@@ -36,7 +36,8 @@ AutoBot is a Discord bot built using Python and the `discord.py` library. It off
     Pull the TinyLlama model using the following command:
     ```sh
     ollama pull tinyllama
-
+    ```
+    
     You can use any Ollama model, just make adjustments in the code to reflect the new model. Here I am using tinyllama as it is a very lightweight and CPU-friendly model.
 
 
