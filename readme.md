@@ -46,7 +46,7 @@ AutoBot is a Discord bot built using Python and the `discord.py` library. It off
     ```env
     TOKEN=your_discord_bot_token
     ```
-    You can create a bot token (here.)[https://discord.com/developers/docs/quick-start/getting-started] 
+    You can create a bot token [here.](https://discord.com/developers/docs/quick-start/getting-started)
 ## Usage
 
 Run the bot:
