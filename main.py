@@ -31,7 +31,7 @@ async def get_ai_response(prompt):
     try:
         response = await asyncio.to_thread(
             ollama.chat, 
-            model="tinyllama",  
+            model="deepseek-r1:8b",  
             messages=[{"role": "user", "content": prompt}],
             options={"num_predict": 200}  
         )
