@@ -19,7 +19,6 @@ intents = discord.Intents.default()
 intents.message_content = True
 
 bot = commands.Bot(command_prefix="!", intents=intents)
-
 # Remove default help command to avoid conflicts
 bot.remove_command("help")
 

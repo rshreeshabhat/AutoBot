@@ -1,6 +1,6 @@
 # AutoBot
 
-AutoBot is a Discord bot built using Python and the `discord.py` library. It offers various commands including ping, coin flip, joke, and AI chat functionalities using the TinyLlama model run locally using Ollama.
+AutoBot is a Discord bot built using Python and the `discord.py` library. It offers various commands including ping, coin flip, joke, and AI chat functionalities using the Deepseek R1 model run locally using Ollama.
 
 ## Features
 
@@ -33,18 +33,13 @@ AutoBot is a Discord bot built using Python and the `discord.py` library. It off
     ollama --version
     ```
 
-    Pull the TinyLlama model using the following command:
-    ```sh
-    ollama pull tinyllama
-    ```
-
-    You can use any Ollama model, just make adjustments in the code to reflect the new model. Here I am using tinyllama as it is a very lightweight and CPU-friendly model.
-
-    If you have a high performance PC with a good GPU you can also use Deepseek-R1:
+    Pull the Deepseek-R1 model using the following command:
+    Deepseek-R1:
     ```sh
     ollama pull deepseek-r1:8b
     ```
 
+    You can use any Ollama model, just make adjustments in the code to reflect the new model. 
 
 
 3. Create a `.env` file in the root directory and add your Discord bot token:
