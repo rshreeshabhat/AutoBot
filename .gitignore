@@ -1,3 +1,5 @@
 # Ignore log files
 *.log
 .env
+env
+Autobot.py
